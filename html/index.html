@@ -16,16 +16,18 @@
                 display: none;
             }
         }
+
         @media only screen and (min-width: 767px) {
             .hamburger-menu {
                 display: none;
             }
         }
+
         @media only screen and (max-width: 767px) {
             .mobile-center {
                 text-align: center;
             }
-            
+
         }
     </style>
 </head>
@@ -33,21 +35,23 @@
 <body>
     <div style="margin-right: 25px;">
         <nav class="navbar">
-            <div class="container-fluid mobile-center">
+            <div class="container">
                 <span class="navbar-text" style="margin-left: 25px;">
                     The Most Complete Education Solution
                 </span>
-                <ul class="nav justify-content-end " style="margin-top: 1rem;">
-                    <li class="nav-item">
-                        <p class="nav-link" style="color: #333;"> <i class="fa-solid fa-phone"></i> Call Us +44777 777
-                            7777</p>
+                <ul class="nav d-grid justify-content-center d-flex" style="margin-top: 1rem;">
+                    <li class="nav-item col-md-12">
+                        <p class="nav-link mobile-center" style="color: #333;"> <i class="fa-solid fa-phone"></i> Call
+                            Us +44777 7777777</p>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: #333;">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: #333;">Signup</a>
-                    </li>
+                    <div class="d-flex gap-5">
+                        <li class="nav-item col-md-6">
+                            <a class="nav-link" href="#" style="color: #333;">Login</a>
+                        </li>
+                        <li class="nav-item col-md-6">
+                            <a class="nav-link" href="#" style="color: #333;">Signup</a>
+                        </li>
+                    </div>
                 </ul>
             </div>
         </nav>
@@ -88,18 +92,19 @@
         </div>
     </nav>
     <div class="dropdown d-flex justify-content-center pb-3">
-        <a class="btn hamburger-menu btn-sm col-6 dropdown-toggle text-light" style="background-color: #fd7e14; href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+        <a class="btn hamburger-menu btn-sm col-6 dropdown-toggle text-light" style="background-color: #fd7e14; href="
+            #" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="fa-solid fa-bars fa-lg"></i>
         </a>
-      
+
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <li><a class="dropdown-item" href="#">Home</a></li>
-          <li><a class="dropdown-item" href="#">Courses</a></li>
-          <li><a class="dropdown-item" href="#">Events</a></li>
-          <li><a class="dropdown-item" href="#">Pages</a></li>
-          <li><a class="dropdown-item" href="#">Blog</a></li>
-          <li><a class="dropdown-item" href="#">Shop</a></li>
-          <li><a class="dropdown-item" href="#">Contact</a></li>
+            <li><a class="dropdown-item" href="#">Home</a></li>
+            <li><a class="dropdown-item" href="#">Courses</a></li>
+            <li><a class="dropdown-item" href="#">Events</a></li>
+            <li><a class="dropdown-item" href="#">Pages</a></li>
+            <li><a class="dropdown-item" href="#">Blog</a></li>
+            <li><a class="dropdown-item" href="#">Shop</a></li>
+            <li><a class="dropdown-item" href="#">Contact</a></li>
         </ul>
     </div>
     <div class="container-fluid d-flex p-0">
@@ -129,19 +134,19 @@
     </div>
     <div class="container">
         <div class="text-center row">
-            <div class="col-md-3">
+            <div class="col-md-3 p-2">
                 <i class="fa-solid fa-graduation-cap fa-2xl" style="margin-top: 1.5rem; margin-right: 1rem;"></i>
                 <span>Over 5 Million <br> Students Enrolled</span>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 p-2">
                 <i class="fa-solid fa-book fa-2xl" style="margin-top: 1.5rem; margin-right: 1rem;"></i>
                 <span>Over 5 Million <br> Students Enrolled</span>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 p-2">
                 <i class="fa-solid fa-computer fa-2xl" style="margin-top: 1.5rem; margin-right: 1rem;"></i>
                 <span>Over 5 Million <br> Students Enrolled</span>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 p-2">
                 <i class="fa-solid fa-person fa-2xl" style="margin-top: 1.5rem; margin-right: 1rem;"></i>
                 <span>Over 5 Million <br> Students Enrolled</span>
             </div>
